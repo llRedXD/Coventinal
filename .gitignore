@@ -5,3 +5,5 @@ node_modules
 package*
 commitlint.config.js
 .venv
+*.sqlite3
+*.pyc
