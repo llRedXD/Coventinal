@@ -1,3 +1,8 @@
+# Local imports
+from .models import Aluno, Curso, Matricula
+
+# Django imports
 from django.contrib import admin
 
-# Register your models here.
+admin.site.register(Aluno)
+
